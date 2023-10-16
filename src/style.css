@@ -5,8 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #101010;
-
+  background: rgb(16,16,16);
+  background: linear-gradient(0deg, rgba(16,16,16,1) 0%, rgba(100,108,255,1) 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,6 +19,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -40,18 +41,23 @@ img {
   width: 99%;
 }
 
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
 h1 {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 10px;
   padding: 40px;
   justify-content: center;
   font-size: 3.2em;
   line-height: 1.1;
   text-align: center;
-  background-color: #3b4097;
+  background: rgb(0,2,35);
+  background: linear-gradient(90deg, rgba(0,2,35,1) 0%, rgba(2,6,77,1) 50%, rgba(0,2,35,1) 100%);
   border-radius: 15px;
-  z-index: 1;
 }
 
 button {
