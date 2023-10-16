@@ -1,7 +1,7 @@
 :root {
   padding-left: auto;
   padding-right: auto;
-
+  accent-color: 0deg, rgba(16,16,16,1) 0%, rgba(100,108,255,1) 100%;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -15,6 +15,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  color: rgb(255, 255, 255);
+  -webkit-text-fill-coeor: rgba(255, 255, 255, 0); 
+  -webkit-opacity: 1; 
 }
 
 a {
@@ -95,8 +98,14 @@ p, label, input {
   padding: 1%;
   font-size: 1.3em;
   transition: all 0.5s ease;
+  padding-bottom: 5%;
 }
 
+li, ol, ul {
+  font-size: 1.1em;
+  transition: all 0.5s ease;
+  padding-bottom: 5%;
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -115,4 +124,16 @@ p, label, input {
   button {
     background-color: #f9f9f9;
   }
+}
+
+input {
+  font-size: 1rem;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: solid;
+  border-color: var(--accent);
+  text-align: center;
+  transition: border-color calc(var(--transition, 0.2) * 1s) ease;
+  border-radius: 8px;
+  &:placeholder-shown
+    --accent hsl(0, 0%, 100%)
 }

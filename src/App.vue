@@ -22,9 +22,9 @@
 </template>
 
 <style>
-  img:hover, p:hover, li:hover, ol:hover {
-    -webkit-filter: drop-shadow(0 0 4em #ffffff);
-    -moz-filter: drop-shadow(0 0 4em #ffffff);
-    filter: drop-shadow(0 0 4em #ffffff);
+  img:hover, p:hover, li:hover, ol:hover, input:hover {
+    -webkit-filter: drop-shadow(0 0 2em #ffffff);
+    -moz-filter: drop-shadow(0 0 2em #ffffff);
+    filter: drop-shadow(0 0 2em #ffffff);
   }
 </style>

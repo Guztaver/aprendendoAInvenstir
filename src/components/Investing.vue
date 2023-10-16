@@ -14,10 +14,7 @@
 </script>
 
 <template>
-  <br />
   <h2>Quanto meu dinheiro renderia?</h2>
-  <br />
-
   <h3> Com um imóvel </h3>
   <div id="text_contet">
     <div>
@@ -47,5 +44,4 @@
   
     <p>Você teria R${{ formatPrice(invesmentMonthlyRent * 12 * timeOfInvenstmentInYears) }} retornados de aluguel, ao longo de {{ timeOfInvenstmentInYears }} anos, e se vendesse, teria R${{ formatPrice(invenstmenteSellPrice - invesmentBuyPrice - invesmentBuySellCosts) }} de retorno.</p>
   </div>
-  <br />
 </template>

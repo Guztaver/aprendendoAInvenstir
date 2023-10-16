@@ -2,7 +2,6 @@
   <h1> E quais são as formas de investir?</h1>
   <img src="../assets/Criptoativos.jpg" alt="Foto de uma Bitcoin sendo pega por uma mão de uma carteira">
 
-  <br />
   <p> Os investementos podem assumir diversas formas, incluindo:</p>
   <div id="text_contet">
     <ol>
@@ -17,5 +16,4 @@
       <li>Desenvolvimento Pessoal: Investir em si mesmo, seja em saúde, bem-estar, ou coaching.</li>
     </ol>
   </div>
-  <br />
 </template>
