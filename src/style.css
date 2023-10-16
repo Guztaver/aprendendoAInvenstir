@@ -17,7 +17,6 @@
   -webkit-text-size-adjust: 100%;
   color: rgb(255, 255, 255);
   -webkit-text-fill-coeor: rgba(255, 255, 255, 0); 
-  -webkit-opacity: 1; 
 }
 
 a {
@@ -116,7 +115,7 @@ li, ol, ul {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: linear-gradient(90deg, rgba(11,19,176,1) 0%, rgba(100,108,255,1) 50%, rgba(255,255,255,1) 100%);
   }
   a:hover {
     color: #747bff;
@@ -134,6 +133,4 @@ input {
   text-align: center;
   transition: border-color calc(var(--transition, 0.2) * 1s) ease;
   border-radius: 8px;
-  &:placeholder-shown
-    --accent hsl(0, 0%, 100%)
 }
