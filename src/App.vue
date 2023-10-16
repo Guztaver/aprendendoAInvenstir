@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
   import Risks from './components/Risks.vue';
   import Savings from './components/Savings.vue';
   import Investing from './components/Investing.vue'
@@ -21,10 +21,10 @@
   <Investing />
 </template>
 
-<style scoped>
-  img:hover, p:hover {
-    -webkit-filter: drop-shadow(0 0 2em #ffffff);
-    -moz-filter: drop-shadow(0 0 2em #ffffff);
-    filter: drop-shadow(0 0 2em #ffffff);
+<style>
+  img:hover, p:hover, li:hover, ol:hover {
+    -webkit-filter: drop-shadow(0 0 4em #ffffff);
+    -moz-filter: drop-shadow(0 0 4em #ffffff);
+    filter: drop-shadow(0 0 4em #ffffff);
   }
 </style>
