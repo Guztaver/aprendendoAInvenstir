@@ -112,10 +112,10 @@ li, ol, ul {
   text-align: left;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
+    background: linear-gradient(180deg, rgba(100,108,255,1) 14%, rgba(255,255,255,1) 85%);
     color: #213547;
-    background-color: linear-gradient(90deg, rgba(11,19,176,1) 0%, rgba(100,108,255,1) 50%, rgba(255,255,255,1) 100%);
   }
   a:hover {
     color: #747bff;
