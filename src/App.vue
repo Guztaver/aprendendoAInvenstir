@@ -2,18 +2,12 @@
   import Risks from './components/Risks.vue';
   import Savings from './components/Savings.vue';
   import Investing from './components/Investing.vue'
+  import WhatIs from './components/WhatIs.vue'
 </script>
 
 <template>
-  <h1> Investimento - Afinal, o que é? </h1>
-  <br>
-  <img src="./assets/fluxo-de-caixa-de-investimentos.jpg" alt="Foto de um gráfico ilustrativo"/>
-  
-  <div id="text_contet">
-    <p> Investimento refere-se ao ato de alocar recursos, como dinheiro, tempo ou esforço, em um ativo, projeto ou empreendimento, com o objetivo de obter um retorno ou ganho no futuro. </p>
-    <p> Geralmente, as pessoas investem para aumentar sua riqueza, proteger contra a inflação, alcançar objetivos financeiros específicos (como aposentadoria, educação dos filhos, etc.) ou simplesmente para diversificar seus ativos. </p>
-  </div>
-  
+  <WhatIs />
+
   <Risks />
   
   <Savings />
