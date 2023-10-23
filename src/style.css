@@ -36,6 +36,19 @@
   }
 }
 
+@media only screen and (max-width:640px) {
+  :root {
+    margin-left: 0px;
+    margin: 0px;
+  }
+
+  img {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
