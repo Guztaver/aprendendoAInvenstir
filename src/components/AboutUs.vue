@@ -12,4 +12,6 @@
     <ul>Kalila Reis - <a href="https://instagram.com/doskalila">@doskalila</a></ul>
     <ul>Pablo Estevão - <a href="https://instagram.com/esttevaoxz">@esttevaoxz</a></ul>
   </ol>
+
+  <b style="text-align: center;">Desenvolvido por <a href="https://github.com/guztaver">Gustavo M.</a> com 	&#x2764, <a href="https://github.com/Guztaver/aprendendoAInvenstir">Link do projeto no GitHub</a> </b>
 </template>
