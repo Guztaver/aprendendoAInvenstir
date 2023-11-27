@@ -6,7 +6,6 @@
   <p>Nosso grupo é composto por:</p>
 
   <ol>
-    <ul>Ana Clara de Jesus</ul>
     <ul>Davi Wávila</ul>
     <ul>Gustavo Muniz</ul>
     <ul>Kalila Reis</ul>

@@ -7,34 +7,55 @@ import AboutUs from './components/AboutUs.vue'
 </script>
 
 <template>
-  <h1>Investimento: A Alocação Estratégica de Recursos para o Futuro</h1>
+  <header>
+    <h1>Investimento: A Alocação Estratégica de Recursos para o Futuro</h1>
+    <p>Muitas pessoas não tem ideias de como investir, ou até, o que é investir. Nesse artigo, temos em vista esclarecer o
+      que é investir, como investir, e dar exemplos de como investir corretamente!</p>
+  </header>
 
-  <img src="./assets/fluxo-de-caixa-de-investimentos.jpg" alt="Foto de um gráfico ilustrativo" />
+  <main>
+    <img src="./assets/fluxo-de-caixa-de-investimentos.jpg" alt="Foto de um gráfico ilustrativo" />
 
-  <label for="navigator">
-    <p><b>Os tópicos abordados serão:</b></p>
-  </label>
+    <label for="navigator">
+      <p><b>Os tópicos abordados serão:</b></p>
+    </label>
 
-  <ol id="navigator">
-    <li><a href="#invest">O que é investir?</a></li>
-    <li><a href="#risks">E quais são as formas de investir?</a></li>
-    <li><a href="#savings">E a poupança, é ou não é investimento?</a></li>
-    <li><a href="#investing">Quanto meu dinheiro renderia?</a></li>
-  </ol>
+    <section>
+      <ol id="navigator">
+        <li><a href="#invest">O que é investir?</a></li>
+        <li><a href="#risks">E quais são as formas de investir?</a></li>
+        <li><a href="#savings">E a poupança, é ou não é investimento?</a></li>
+        <li><a href="#investing">Quanto meu dinheiro renderia?</a></li>
+      </ol>
+    </section>
 
-  <hr>
+    <hr>
 
-  <WhatIs />
+    <article>
+      <WhatIs />
+    </article>
 
-  <Risks />
+    <article>
+      <Risks />
+    </article>
 
-  <Savings />
+    <article>
+      <Savings />
+    </article>
 
-  <Investing />
+    <article>
+      <Investing />
+    </article>
 
-  <hr>
+    <hr>
 
-  <AboutUs />
+  </main>
+
+  <footer>
+    <section>
+      <AboutUs />
+    </section>
+  </footer>
 </template>
 
 <style></style>

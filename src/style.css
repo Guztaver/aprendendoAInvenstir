@@ -1,30 +1,43 @@
-:root {
-  margin-left: 1.3%;
-  margin-right: 50%;
-  padding-left: auto;
-  padding-right: auto;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-  accent-color: 0deg, rgba(16,16,16,1) 0%, rgba(100,108,255,1) 100%;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:root {
+  display: flex;
+
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+
+  font-family: 'Merriweather', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 1.1em;
 
-  background: var(--color-white,#fff);
+  background: rgb(254, 249, 236);
   color: rgb(0, 0, 0);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
+  max-width: 100%;
+  overflow-x: hidden;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  -webkit-text-fill-coeor: rgba(255, 255, 255, 0); 
+}
+
+@media only screen and (max-width: 844px) {
+  :root{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 14px;
+    justify-content: flex-start;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: linear-gradient(0deg, rgba(16,16,16,1) 0%, rgba(100,108,255,1) 100%);
+    background: rgb(4, 24, 77);
     color: rgba(255, 255, 255);
   }
   html:hover {
@@ -35,28 +48,13 @@
   }
 }
 
-@media only screen and (max-width:920px) {
-  :root {
-    margin-left: 0px;
-    margin: 0px;
-  }
-
-  img {
-    width: 70%;
-    align-items: center;
-    text-align: center;
-  }
-}
-
 a {
   font-weight: 500;
-  color: #9DA4FF;
   text-decoration: inherit;
 }
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -65,7 +63,6 @@ body {
 img {
   border-radius: 15px;
   margin-right: auto;
-  margin-bottom: 6%;
   width: 70%;
 }
 
@@ -76,10 +73,7 @@ body {
 
 h1, h2 {
   color: #bcb65d;
-  top: 1%;
-  padding-left: 0.5%;
   font-size: 2.2em;
-  line-height: 1.1;
 }
 
 h3 {
@@ -117,22 +111,14 @@ button {
 }
 
 
-p {
-  margin: 0 var(--margin-x,0) 1.54em;
-  padding-left: 0.5%;
-}
-
 label, input {
-  margin-left: 1%;
   transition: all 0.5s ease;
 }
 
 
 input {
   font-size: 1rem;
-  border-width: calc(var(--border-width) * 1px);
   border-style: solid;
-  border-color: var(--accent);
   text-align: center;
   border-radius: 8px;
 }
