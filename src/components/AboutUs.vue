@@ -8,6 +8,7 @@
   <ol>
     <ul>Davi Wávila</ul>
     <ul>Gustavo Muniz</ul>
+    <ul>Iasmim Silva</ul>
     <ul>Kalila Reis</ul>
     <ul>Pablo Estevão</ul>
   </ol>

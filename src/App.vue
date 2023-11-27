@@ -47,6 +47,11 @@ import AboutUs from './components/AboutUs.vue'
       <Investing />
     </article>
 
+    <br />
+    <section>
+      <p>Para mais informações, visite o site do <a href="https://bcb.gov.br">Banco Central</a>.</p>
+    </section>
+
     <hr>
 
   </main>

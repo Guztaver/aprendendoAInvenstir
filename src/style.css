@@ -46,6 +46,16 @@
     filter: drop-shadow(0 0 2em #631bf0);
     transition: all 0.15s ease;
   }
+  a {
+    color: #c4a7fc;
+  }
+}
+
+html:hover {
+  -webkit-filter: drop-shadow(0 0 2em #ffb282);
+  -moz-filter: drop-shadow(0 0 2em #ffb282);
+  filter: drop-shadow(0 0 2em #ffb282);
+  transition: all 0.15s ease;
 }
 
 a {
@@ -125,6 +135,10 @@ input {
 
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+ol {
+  list-style: circle;
 }
 
 img:hover,
